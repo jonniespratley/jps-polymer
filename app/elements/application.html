@@ -1,0 +1,29 @@
+<polymer-element name="application-element"  attributes="">
+  <template>
+    <style>
+      @host { :scope {display: block;} }
+    </style>
+
+	<div class="hero-unit">
+        <h1>'Allo, 'Allo!</h1>
+        <p>You now have</p>
+        <ul>
+            <li>HTML5 Boilerplate</li>
+            <li>Polymer</li>
+        </ul>
+        <p>installed.</p>
+        <h3>Enjoy coding! - Yeoman</h3>
+    </div>
+
+  </template>
+  <script>
+    Polymer('application-element', {
+      //applyAuthorStyles: true,
+      //resetStyleInheritance: true,
+      created: function() { },
+      enteredView: function() { },
+      leftView: function() { },
+      attributeChanged: function(attrName, oldVal, newVal) { }
+    });
+  </script>
+</polymer-element>
